@@ -1,3 +1,6 @@
+//引入插件
+const HTMLPlugin = require('html-webpack-plugin')
+
 module.exports = {
     mode: 'production',
     module: {
@@ -16,5 +19,14 @@ module.exports = {
                 }
             }
         ]
-    }
+    },
+
+
+    //配置插件
+    plugins: [
+        new HTMLPlugin({
+            // title:'Hello Webpack'
+            template:"./src/index.html"
+        })
+    ]
 }
