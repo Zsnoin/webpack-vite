@@ -1,1 +1,32 @@
-(()=>{var e=document.createElement("h1");e.innerText="今天天气真不错！！！",document.body.appendChild(e),document.body.onclick=function(){alert("你点我干嘛！！！")}})();
+/*
+ * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+/******/ (() => { // webpackBootstrap
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/***/ (() => {
+
+eval("var h1 = document.createElement('h1');\nh1.innerText = '今天天气真不错！！！';\ndocument.body.appendChild(h1);\ndocument.body.onclick = function () {\n  alert('你点我干嘛！！！');\n};\n\n//# sourceURL=webpack://demo_04/./src/index.js?");
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module can't be inlined because the eval devtool is used.
+/******/ 	var __webpack_exports__ = {};
+/******/ 	__webpack_modules__["./src/index.js"]();
+/******/ 	
+/******/ })()
+;

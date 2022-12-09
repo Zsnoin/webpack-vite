@@ -1,8 +1,9 @@
+//安装插件 npm i html-webpack-plugin
 //引入插件
 const HTMLPlugin = require('html-webpack-plugin')
 
 module.exports = {
-    mode: 'production',
+    mode: 'development',
     module: {
         rules: [
             {
@@ -26,7 +27,10 @@ module.exports = {
     plugins: [
         new HTMLPlugin({
             // title:'Hello Webpack'
-            template:"./src/index.html"
+            template: "./src/index.html"
         })
-    ]
+    ],
+
+    //设置代码映射
+    devtool: "inline-source-map"
 }
